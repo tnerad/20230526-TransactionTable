@@ -1,0 +1,8 @@
+<h1>Table#view</h1>
+<p>Find me in app/views/table/view.html.erb</p>
+
+<h1>Page Views: <%= Key.last.key %></h1>
+
+<%= form_with url: table_reset_path, method: :post do |f| %>
+  <%= f.submit "Reset Counter" %>
+<% end %>
